@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="main">
+        <h3>Created by pavan teja</h3>
+    <div class="card">
+        <h2 align="center">Google Map View</h2>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3794.6676449513743!2d83.41159507380594!3d17.99419328504383!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a3be321dab3af81%3A0x98aea1e9cbd6aabc!2sRaghu%20Engineering%20College%20(Autonomous)!5e0!3m2!1sen!2sin!4v1695320036114!5m2!1sen!2sin"
+            width="400" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+</div>
+</body>
+<style>
+    body {
+        margin: 0;
+        top: 0;
+    }
+    h2 {
+        margin: 0px;
+        padding: 10px;
+        background-color: black;
+        color: white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .card {
+        margin: 0 auto;
+        width: 400px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        border: 7px solid black;
+        border-radius: 15px;
+    }
+    .card:hover {
+        box-shadow: 2px 2px 2px 3px rgb(221, 221, 215);
+    }
+    .main {
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+    h3 {
+        text-align: center;
+        padding: 7px;
+        width: 20%;
+        margin-left: 20px;
+        background-color: black;
+        color: white;
+        border-radius: 10px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    h3:hover {
+        color: aqua;
+        cursor: pointer;
+        border: 3px solid aqua;
+    }
+    h2:hover {
+        color: yellow;
+        cursor: pointer;
+    }
+    @media only screen and (max-width: 700px) {
+        .card {
+            width: 300px;
+        }
+        iframe {
+            width: 300px;
+            height: 350px;
+        }
+        h3 {
+            width: 40%;
+        }
+    }
+</style>
+
+</html>
